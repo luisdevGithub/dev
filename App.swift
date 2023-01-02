@@ -9,12 +9,11 @@
 import Foundation
 
 struct App: Decodable, Hashable {
-    let id1: Int //DEV1 - line change
+    let id: Int
     let tagline: String
     let name: String
     let subheading: String
     let image: String
-    let data: String //DEV1 - add line
 }
 
 struct App2: Decodable, Hashable {
