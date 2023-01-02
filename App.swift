@@ -18,4 +18,6 @@ struct App: Decodable, Hashable {
 
 struct App2: Decodable, Hashable {
     let id2: Int
+    let status: String //DEV2 - add line
+    let data: String //DEV2 - add line
 }
